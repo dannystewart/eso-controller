@@ -1,0 +1,16 @@
+## Title: Sous Chef
+## Author: Wobin, CrazyDutchGuy, KatKat42 & Baertram
+## Version: v2.30
+## AddOnVersion: 230
+## APIVersion: 1000029 100030
+## SavedVariables: SousChef_Settings
+## DependsOn: LibSort LibAddonMenu-2.0
+
+SousChef.lua
+Utility.lua
+Strings.lua
+Common.lua
+Inventory.lua
+TradingHouse.lua
+Provisioning.lua
+Bindings.xml

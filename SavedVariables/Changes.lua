@@ -1,0 +1,62 @@
+Changes_sv =
+{
+    ["Default"] = 
+    {
+        ["@timelord726"] = 
+        {
+            ["$AccountWide"] = 
+            {
+                ["hideOnFocusWait"] = 10,
+                ["alwaysMinimizeChatOnLoad"] = false,
+                ["hideWeaponSwapIcon"] = false,
+                ["hideChatDivider"] = true,
+                ["hideMinChatBackground"] = true,
+                ["neverRemoveCompassAlpha"] = 50,
+                ["hideButtonThree"] = false,
+                ["showPortCost"] = false,
+                ["hideZoneStory"] = false,
+                ["removeArmorBuff"] = false,
+                ["hideNotificationIcon"] = false,
+                ["removePowerBuff"] = false,
+                ["customCommand"] = 
+                {
+                    [1] = "/script d ( \" you need to enter something homie\")",
+                    [2] = "/script d ( \" you need to enter something homie\")",
+                    [3] = "/script d ( \" you need to enter something homie\")",
+                    [4] = "/script d ( \" you need to enter something homie\")",
+                    [5] = "/script d ( \" you need to enter something homie\")",
+                    [6] = "/script d ( \" you need to enter something homie\")",
+                    [7] = "/script d ( \" you need to enter something homie\")",
+                    [8] = "/script d ( \" you need to enter something homie\")",
+                    [9] = "/script d ( \" you need to enter something homie\")",
+                },
+                ["hideButtonTwo"] = false,
+                ["hideQuickbar"] = false,
+                ["hideButtonOne"] = false,
+                ["removeFrames"] = false,
+                ["autoDeleteJCWrits"] = false,
+                ["autoDeleteTreasureMaps"] = false,
+                ["hideEmptyBackground"] = false,
+                ["isMinimized"] = true,
+                ["hideTopBar"] = false,
+                ["hideOnFocusLost"] = false,
+                ["hideBottomBar"] = true,
+                ["version"] = 1,
+                ["hideActionBorders"] = false,
+                ["autoDeleteToys"] = false,
+                ["hideButtonFour"] = false,
+                ["hideKeybindText"] = false,
+                ["neverRemoveCompass"] = false,
+                ["keepChatWindowHidden"] = false,
+                ["removeCompassBG"] = false,
+                ["hideUltimate"] = false,
+                ["hideButtonFive"] = false,
+                ["hideMeterBackground"] = false,
+                ["removeGloss"] = false,
+                ["hideChatBackground"] = true,
+                ["showActualCP"] = false,
+                ["hideKeybindBackground"] = false,
+            },
+        },
+    },
+}

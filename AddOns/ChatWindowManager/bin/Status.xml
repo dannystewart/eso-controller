@@ -1,0 +1,51 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="cWM_StatusControl">
+			<Anchor point="LEFT" relativeTo="ZO_ChatWindowNotifications" relativePoint="RIGHT" offsetX="36" offsetY="-16"/>
+
+		<!-- \esoui\ingame\contacts\displayname.lua -->
+
+            <Controls>
+                <Control name="$(parent)Status" mouseEnabled="true">
+                    <Anchor point="TOPLEFT"/>
+                    <Dimensions x="48" y="32"/>
+                    <OnInitialized>
+                        ZO_ComboBox:New(self)
+                    </OnInitialized>
+                    <OnMouseUp>
+                        ZO_ComboBox_DropdownClicked(self)
+                    </OnMouseUp>
+                    <Controls>
+                        <Button name="$(parent)SelectedItem" mouseOverBlendMode="ADD">
+                            <Dimensions x="32" y="32"/>
+                            <Anchor point="TOPLEFT"/>
+                            <Textures mouseOver="EsoUI/Art/Contacts/social_status_highlight.dds"/>
+							<OnMouseEnter>
+								CWMAddon.XMLNavigation(self:GetParent(), 1, 2)
+							</OnMouseEnter>
+							<OnMouseExit>
+								CWMAddon.XMLNavigation(self:GetParent(), 2, 2)
+							</OnMouseExit>
+							<OnClicked>
+								ZO_ComboBox_DropdownClicked(self:GetParent())
+							</OnClicked>
+                        </Button>
+                        <Button name="$(parent)OpenDropdown" inherits="ZO_DropdownButton">
+                            <Dimensions x="16" y="16" />
+                            <Anchor point="LEFT" relativeTo="$(parent)SelectedItem" relativePoint="RIGHT" offsetX="-4" />
+							<OnMouseEnter>
+								CWMAddon.XMLNavigation(self:GetParent(), 1, 2)
+							</OnMouseEnter>
+							<OnMouseExit>
+								CWMAddon.XMLNavigation(self:GetParent(), 2, 2)
+							</OnMouseExit>
+							<OnClicked>
+								ZO_ComboBox_DropdownClicked(self:GetParent())
+							</OnClicked>
+                        </Button>
+                    </Controls>
+                </Control>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>

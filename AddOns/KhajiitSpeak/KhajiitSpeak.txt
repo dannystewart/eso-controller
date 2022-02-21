@@ -1,0 +1,25 @@
+## Title: Khajiit Speak
+## Author: Diriel
+## Version: 1.14
+## Description: This one thinks Khajiit should not have to hide his accent.
+## SavedVariables: KjtSpk_PstntVars
+## APIVersion: 100024
+## OptionalDependsOn: LibAddonMenu-2.0
+
+lib\LibStub.lua
+lib\lam\LibAddonMenu-2.0.lua
+lib\lam\controls\panel.lua
+lib\lam\controls\submenu.lua
+lib\lam\controls\button.lua
+lib\lam\controls\checkbox.lua
+lib\lam\controls\colorpicker.lua
+lib\lam\controls\custom.lua
+lib\lam\controls\description.lua
+lib\lam\controls\dropdown.lua
+lib\lam\controls\editbox.lua
+lib\lam\controls\header.lua
+lib\lam\controls\slider.lua
+lib\lam\controls\texture.lua
+lib\lam\controls\iconpicker.lua
+
+KhajiitSpeak.lua
